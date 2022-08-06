@@ -1,0 +1,76 @@
+@import 'fonts.css';
+
+html, body {
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Mulish-Regular', Verdana, sans-serif;
+    overflow-x: hidden;
+}
+
+.gradient-background {
+    color: white;
+    background: rgb(141, 73, 247);
+    background: -moz-linear-gradient(90deg, rgba(141, 73, 247, 1) 50%, rgba(107, 83, 255, 1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(141, 73, 247, 1) 50%, rgba(107, 83, 255, 1) 100%);
+    background: linear-gradient(90deg, rgba(141, 73, 247, 1) 50%, rgba(107, 83, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#8d49f7", endColorstr="#6b53ff", GradientType=1);
+}
+
+.solid-background {
+    background: #6333E9;
+}
+
+.logo-container {
+    padding: 8px;
+}
+
+.custom-card {
+    background: #F2F2F2;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.075);
+    border-radius: 11px;
+}
+
+.go-button {
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    background: #E0E0E0;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.landing-title {
+    margin: 0;
+    font-family: 'Mulish-ExtraBold', Verdana, sans-serif;
+    padding: 30px;
+    font-weight: 900;
+    font-size: 44px;
+}
+
+.selection-title {
+    font-family: 'Mulish-Bold', Verdana, sans-serif;
+    color: #4F4F4F
+}
+
+.selection-container {
+    padding: 75px 0 50px 0;
+}
+
+.landing-footer {
+    padding-bottom: 80px;
+}
+
+@media (max-width: 1200px) {
+    .landing-title {
+        padding: 20px;
+        font-weight: 700;
+        font-size: 26px;
+    }
+}
